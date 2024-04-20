@@ -43,6 +43,7 @@ def brute_force_8_queens():
     solutions = 0
     for perm in perms:
         if is_valid(perm):
+            print(perm)
             solutions += 1
             print("Solution #", solutions)
             visualize_board_matplotlib(perm)

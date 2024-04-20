@@ -1,3 +1,4 @@
+# Use Backtracking  to solve 8 Queen 
 import matplotlib.pyplot as plt
 import numpy as np
 
